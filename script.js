@@ -73,7 +73,6 @@ async function fetchReport(data){
             method:"POST",
             headers:{
                 "Content-Type":"application/json",
-                // "Authorization":"Bearer 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"
             },
             body:JSON.stringify({
                 messages:messages
